@@ -1,0 +1,30 @@
+{
+  "name": "mern-stack-task",
+  "version": "1.0.0",
+  "description": "Task app using mern stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
+  },
+  "author": "Lervin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.18.9",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
